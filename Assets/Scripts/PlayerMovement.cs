@@ -57,5 +57,11 @@ public class PlayerMovement : MonoBehaviour{
         } else if(Input.GetKeyUp("e")){
             anim.SetBool("Waving", false);
         }
+
+	if(Input.GetKeyDown("z")){
+            anim.SetBool("T-pose", true);
+        } else if(Input.GetKeyUp("z")){
+            anim.SetBool("T-pose", false);
+        }
     }
 }
