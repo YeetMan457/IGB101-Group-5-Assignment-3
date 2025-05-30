@@ -1,0 +1,29 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class LevelSwitch : MonoBehaviour
+{
+
+    GameManager gameManager;
+    public string nextLevel;
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+    }
+
+    private void OnTriggerEnter(Collider otherObject){
+        if(gameManager.levelComplete){
+            SceneManager.LoadScene("IGB101 Assignment 3 Brandon Alchin");
+        }
+    }
+
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
