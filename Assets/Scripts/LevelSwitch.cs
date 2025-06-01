@@ -16,7 +16,7 @@ public class LevelSwitch : MonoBehaviour
 
     private void OnTriggerEnter(Collider otherObject){
         if(gameManager.levelComplete){
-            SceneManager.LoadScene("Jenna's level");
+            SceneManager.LoadScene(nextLevel);
         }
     }
 

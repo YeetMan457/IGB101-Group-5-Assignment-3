@@ -43392,7 +43392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bc01f1caebd44a4e9ecab730f8563fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: Jenna's Level
+  nextLevel: IGB101 Assignment 3 Brandon Alchin
 --- !u!65 &1967421579
 BoxCollider:
   m_ObjectHideFlags: 0
